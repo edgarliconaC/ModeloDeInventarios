@@ -32,7 +32,30 @@ public class ModeloDeInventarios {
                     y = (int) Math.sqrt((2 * k * d) / h);
 
                     System.out.println("Valor de y* " + y);
+
+                    to = y / d;
+                    System.out.println("El valor de to es: "+ to);
+
+                    System.out.println("Tecle el tiempo en el que se hace y recibe el pedido");
+                    dias = lector.nextInt();
+
+                    diasSobreTo = dias / to;
+
+                    le = dias - diasSobreTo * (to);
+
+                    System.out.println("Valor de Le es: " + le);
+
+                    pr = le * d;
+
+                    System.out.println("Valor de punto de reorden es: " + pr);
+
+                    tcu = (int) ((k / y / d) + (h * (y / 2)));
+
+                    System.out.println("El valor de TCU es: " + tcu);
+
                     
+
+
                 case 3:
                     System.out.println("Saliendo");
                     break;
