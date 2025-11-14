@@ -53,7 +53,8 @@ public class ModeloDeInventarios {
 
                     System.out.println("El valor de TCU es: " + tcu);
 
-                    
+                    System.out.println("Se debe comprar " + y + "Piezas cada " + to + "doas, o cada que tengan " + pr + "Piezas");
+                    break
 
 
                 case 3:
