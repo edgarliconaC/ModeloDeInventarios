@@ -15,8 +15,7 @@ public class ModeloDeInventarios {
         do {
             System.out.println("Menu");
             System.out.println("1. Modelo de inventarios clasico");
-            System.out.println("2. Modelo de inventarios con descuento");
-            System.out.println("3. Salir");
+            System.out.println("2. Salir");
             System.out.println("Opcion: ");
             opcion = lector.nextInt();
             switch (opcion) {
@@ -57,14 +56,14 @@ public class ModeloDeInventarios {
                     break
 
 
-                case 3:
-                    System.out.println("Saliendo");
+                case 2:
+                    System.out.println("Saliendo...");
                     break;
 
                 default:
 
                     break;
             }
-        } while (opcion != 3);
+        } while (opcion != 2);
     }
 }
